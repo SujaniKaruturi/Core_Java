@@ -47,7 +47,7 @@ class Child3 extends School2
 	}
 }
 
-public class Assignment26 extends School2
+public class HierarchialLevelInheritance_1 extends School2
 {
 	static void third()
 	{
@@ -59,7 +59,7 @@ public class Assignment26 extends School2
 	}
 	public static void main(String[] args) 
 	{
-		Assignment26 f=new Assignment26();
+		HierarchialLevelInheritance_1 f=new HierarchialLevelInheritance_1();
 		f.fourth();
 		third();
 		f.ukg();

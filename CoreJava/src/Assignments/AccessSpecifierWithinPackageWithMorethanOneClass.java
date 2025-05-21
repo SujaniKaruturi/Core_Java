@@ -22,7 +22,7 @@ class A
 		System.out.println("protected: static method- multiply");
 	}
 }
-public class Assignment_42      //No relation between class A and class Assignment_42
+public class AccessSpecifierWithinPackageWithMorethanOneClass      //No relation between class A and class Assignment_42
 {
 	void pen()       //default method
 	{
@@ -51,7 +51,7 @@ public class Assignment_42      //No relation between class A and class Assignme
 		//a.division();  //private methods cannot be accessed with in package but diff class
 	
 		A.multiply();
-		Assignment_42 f =new Assignment_42();
+		AccessSpecifierWithinPackageWithMorethanOneClass f =new AccessSpecifierWithinPackageWithMorethanOneClass();
 		f.pen();
 		pencil();
 		f.eraser();

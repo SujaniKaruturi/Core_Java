@@ -1,6 +1,6 @@
 package Assignments;
 //Ass14. Nested if and if else statements
-public class Assignment_14 
+public class NestedIf 
 {
 
 	public static void main(String[] args) 

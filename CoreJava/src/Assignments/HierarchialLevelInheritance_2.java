@@ -22,7 +22,7 @@ class Child_1 extends Parent_1   //Single Level Inheritance
 		System.out.println("Non-static method of Child1 class");
 	}
 }
-public class Assignment27 extends Child_1   //Multi Level Inheritance
+public class HierarchialLevelInheritance_2 extends Child_1   //Multi Level Inheritance
 {
 	static void btech3 ()
 	{
@@ -36,7 +36,7 @@ public class Assignment27 extends Child_1   //Multi Level Inheritance
 	public static void main(String[] args) 
 	{
 		
-		Assignment27 f=new Assignment27();
+		HierarchialLevelInheritance_2 f=new HierarchialLevelInheritance_2();
 		btech3();
 		first();
 		lkg();

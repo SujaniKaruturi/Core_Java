@@ -1,6 +1,6 @@
 package Assignments;
 //Ass17. Method overloading
-public class Assignment_17 
+public class MethodOverloading 
 {
 	void add()
 	{

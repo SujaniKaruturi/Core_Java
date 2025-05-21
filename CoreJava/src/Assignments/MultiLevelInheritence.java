@@ -23,7 +23,7 @@ class College extends School
 		System.out.println("Non-static method of College class");
 	}
 }
-public class Asignment24 extends College
+public class MultiLevelInheritence extends College
 {
 	static void btech1 ()
 	{
@@ -35,7 +35,7 @@ public class Asignment24 extends College
 	}
 	public static void main(String[] args) 
 	{
-		Asignment24 b=new Asignment24();
+		MultiLevelInheritence b=new MultiLevelInheritence();
 		lkg();
 		first();
 		btech1();

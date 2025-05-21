@@ -3,7 +3,7 @@ package Assignments;
  Ass11_13. Logical AND ,OR, Not Logical operator
  Ass16. Comparison operators
  */
-public class Assignment_11_to_13
+public class LogicalAndcomparisionOperators
 {
 
 	public static void main(String[] args)

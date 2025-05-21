@@ -1,6 +1,6 @@
 package Assignments;
 
-public class Allmethods 
+public class SIB_IIB_Constructor_MainMethod 
 {
 
 	static

@@ -3,7 +3,7 @@ package Assignments;
 //this keyword can only be used when the parameters of global variable(only data types should be same and names can be different) and parameters of methods are same,to equalize both of them.
 //Disadvantage of this keyword is it can only be used in non-static methods
 //when we want non-static local variables values to be set to global variables values then this keyword is used.
-public class Assignment_46 
+public class thisKeyword 
 {
 	int a;
 	//int a=100; then value of a will be updated.
@@ -23,7 +23,7 @@ public class Assignment_46
 	}
 	public static void main(String[] args)
 	{
-		Assignment_46 g=new Assignment_46();
+		thisKeyword g=new thisKeyword();
 		g.add(4,7f, 6.57,"Hello");    //output of this method when called first is : Method1, 4, 7.0, 6.57, Hello, 0 
 		System.out.println(g.a);   //default values
 		System.out.println(g.b);

@@ -8,7 +8,7 @@ import CodePractice.Assignment_43_Parentclass;
 //2. Assignments package---> Assignemnt_43 is a class where PSVM() is present,so we need to import Corejava package into Assignments package.
 //3. to make the Assignemnt_43 as subclass we need to inherit Assignment_43_Parentclass class using extends keyword.
 //4. public class Assignment_43_Parentclass extends Assignment_43
-public class Assignment_43 extends Assignment_43_Parentclass
+public class OutsidePackageByBecomingsubClass extends Assignment_43_Parentclass
 {	
 	void add()       //default method
 	{
@@ -29,7 +29,7 @@ public class Assignment_43 extends Assignment_43_Parentclass
 
 	public static void main(String[] args)
 	{
-		Assignment_43 e =new Assignment_43();
+		OutsidePackageByBecomingsubClass e =new OutsidePackageByBecomingsubClass();
 		//e.pen();	//default method is not accessible
 		pencil();	//static method is called directly if the method is present in same class
 		//static method are called using class name when static method are present in different class

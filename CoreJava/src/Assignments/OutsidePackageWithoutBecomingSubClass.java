@@ -7,7 +7,7 @@ import CodePractice.Assignment_44_ParentClass;
 //no need to import Assignment_44_Parentclass,no need to use extends keyword as well
 //If no relation is present between 2 classes,classA & classB :where PSVM() is present in class B,need to import class A
 //then we can access the non-static method of any class from class B using object reference variable of class A
-public class Assignment_44
+public class OutsidePackageWithoutBecomingSubClass
 {
 	void add()       //default method
 	{
@@ -35,7 +35,7 @@ public class Assignment_44
 		
 		//h.eraser();	//Protected methods are not accessible
 		//sharpner();	//Private methods are not accessible
-		Assignment_44 k=new Assignment_44();
+		OutsidePackageWithoutBecomingSubClass k=new OutsidePackageWithoutBecomingSubClass();
 		k.add();
 		subtract();
 		k.division();

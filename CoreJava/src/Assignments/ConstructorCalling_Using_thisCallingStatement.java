@@ -6,54 +6,54 @@ package Assignments;
 //To overcome above issue ,this calling statement is used.
 
 //This calling statement: Used to call from one constructor to another constructor. This calling statement should be written in first line of constructor.
-public class Assignment_45 
+public class ConstructorCalling_Using_thisCallingStatement
 {
-	Assignment_45()
+	ConstructorCalling_Using_thisCallingStatement()
 	{
 		this("hi");
 		System.out.println("Non-parametirized constructor");
 	}
-	Assignment_45(int a)
+	ConstructorCalling_Using_thisCallingStatement(int a)
 	{
 		System.out.println("parametirized constructor with int data type ");
 	}
-	Assignment_45(int a,double b)
+	ConstructorCalling_Using_thisCallingStatement(int a,double b)
 	{	
 		this("School",true,45.678);
 		System.out.println("parametirized constructor with int,double data type ");
 	}
-	Assignment_45(String h)
+	ConstructorCalling_Using_thisCallingStatement(String h)
 	{	
 		this(89,78.869);
 		System.out.println("parametirized constructor with String data type ");
 	}
-	Assignment_45(String t,boolean y)
+	ConstructorCalling_Using_thisCallingStatement(String t,boolean y)
 	{
 		System.out.println("parametirized constructor with String,boolean data type ");
 	}
-	Assignment_45(int a,float k)
+	ConstructorCalling_Using_thisCallingStatement(int a,float k)
 	{
 		System.out.println("parametirized constructor with int,float data type ");
 	}
-	Assignment_45(int a,String o,boolean i)
+	ConstructorCalling_Using_thisCallingStatement(int a,String o,boolean i)
 	{
 		System.out.println("parametirized constructor with int,String,boolean data type ");
 	}
-	Assignment_45(String i,boolean f,double y)
+	ConstructorCalling_Using_thisCallingStatement(String i,boolean f,double y)
 	{
 		System.out.println("parametirized constructor with String,boolean,double data type ");
 	}
-	Assignment_45(float a)
+	ConstructorCalling_Using_thisCallingStatement(float a)
 	{
 		System.out.println("parametirized constructor with float data type ");
 	}
-	Assignment_45(boolean a)
+	ConstructorCalling_Using_thisCallingStatement(boolean a)
 	{
 		System.out.println("parametirized constructor with boolean data type ");
 	}
 	public static void main(String[] args)
 	{
-		Assignment_45 g= new Assignment_45();
+		ConstructorCalling_Using_thisCallingStatement g= new ConstructorCalling_Using_thisCallingStatement();
 
 	}
 

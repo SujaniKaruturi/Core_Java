@@ -12,7 +12,7 @@ class singleParent
 		System.out.println("Non-static method of Parent class");
 	}
 }
-public class Assignment23 extends singleParent
+public class SingleLevelInheritance extends singleParent
 {
 	static void college()
 	{
@@ -24,7 +24,7 @@ public class Assignment23 extends singleParent
 	}
 	public static void main(String[] args) 
 	{
-		Assignment23 a= new Assignment23();
+		SingleLevelInheritance a= new SingleLevelInheritance();
 		a.add();
 		a.hello();
 		school();

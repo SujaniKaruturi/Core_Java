@@ -13,7 +13,7 @@ class Parent_4
 		System.out.println("parent class non-static method" );
 	}
 }
-public class Assignment29 extends Parent_4
+public class MethodOverriding extends Parent_4
 {
 	static void bottle()
 	{
@@ -29,7 +29,7 @@ public class Assignment29 extends Parent_4
 	}
 	public static void main(String[] args) 
 	{
-		Assignment29 l=new Assignment29();
+		MethodOverriding l=new MethodOverriding();
 		l.glass();
 		bottle();   //output will be child class method output ,where parent class method is been over ridden
 

@@ -46,13 +46,13 @@ class ScannerExample
 		System.out.println("Value of i after multiplication  is " + i);
 	}
 }
-public class Assignment_37 extends ScannerExample
+public class ScannerClass extends ScannerExample
 {
 	
 	public static void main(String[] args)
 	{
 		
-		Assignment_37 y = new Assignment_37();
+		ScannerClass y = new ScannerClass();
 		y.add();
 		y.subtract();
 		y.division();

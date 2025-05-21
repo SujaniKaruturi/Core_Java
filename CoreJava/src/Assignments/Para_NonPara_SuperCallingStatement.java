@@ -38,13 +38,13 @@ class Younger extends Elder
 		System.out.println("bhai non-static method of Younger class");
 	}
 }
-public class Assignment38_39 extends Younger
+public class Para_NonPara_SuperCallingStatement extends Younger
 {
 
 	public static void main(String[] args)
 	{
 		//object v is calling both Elder,Younger constructors implicitly.(non-para Super calling statement is already existing implicitly)
-		Assignment38_39 v =new Assignment38_39();   
+		Para_NonPara_SuperCallingStatement v =new Para_NonPara_SuperCallingStatement();   
 		v.babi();
 		v.bhai();
 		didi();

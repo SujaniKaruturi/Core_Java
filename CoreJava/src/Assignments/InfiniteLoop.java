@@ -2,7 +2,7 @@ package Assignments;
 /*
  Ass7_8. Run an infinite for loop using increment,decrement loop
  */
-public class Assignment_7_8 
+public class InfiniteLoop 
 {
 
 	public static void main(String[] args) 

@@ -1,14 +1,14 @@
 package Assignments;
 //Ass36. 3 SIB,3IIB,1 main method,2 static method,2 non-static method,2 constructors in a class then call it and check the output
 //Order of execution when SIb,IIB,main method,constructor are present in same class is SIB,main method,IIB,constructor.
-public class Assignment_36 
+public class OrderOfExecution2
 {
-	Assignment_36()
+	OrderOfExecution2()
 	{	
 		
 		System.out.println("Assignment_36 constructor 1");
 	}
-	Assignment_36(int a)    //this constructor is not called during the execution.
+	OrderOfExecution2(int a)    //this constructor is not called during the execution.
 	{
 		System.out.println("Assignment_36 constructor 2");
 	}
@@ -54,7 +54,7 @@ public class Assignment_36
 	
 	public static void main(String[] args) 
 	{
-		Assignment_36 o=new Assignment_36();
+		OrderOfExecution2 o=new OrderOfExecution2();
 		o.charger();
 		o.spects();
 		fan();

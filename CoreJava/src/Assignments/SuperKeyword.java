@@ -9,7 +9,7 @@ class Parent_5
 		System.out.println("Addition of 2 numbers is " + (c+d)); //addition
 	}
 }
-public class Assignment30 extends Parent_5
+public class SuperKeyword extends Parent_5
 {
 	void bottle()    //method overriding
 	{
@@ -20,7 +20,7 @@ public class Assignment30 extends Parent_5
 	}
 	public static void main(String[] args) 
 	{
-		Assignment30 p=new Assignment30();
+		SuperKeyword p=new SuperKeyword();
 		p.bottle();
 
 	}
