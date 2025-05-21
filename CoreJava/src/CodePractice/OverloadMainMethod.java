@@ -20,5 +20,9 @@ public class OverloadMainMethod {
 		// TODO Auto-generated method stub
 		System.out.println("over loading main method with no input parameter ");
 	}
+	public static void main(String[] args,int a)
+	{
+		System.out.println("main method overloading");
+	}
 
 }
