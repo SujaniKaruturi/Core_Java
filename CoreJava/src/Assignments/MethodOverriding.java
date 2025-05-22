@@ -1,6 +1,7 @@
 package Assignments;
 //Ass29. Method Overriding
 class Parent_4
+why static methods cannot be overridden
 {
 	static void bottle()
 	{
@@ -25,7 +26,7 @@ public class MethodOverriding extends Parent_4
 	void glass()
 	{
 		System.out.println("child class non-static method" );
-		super.glass();     //Super keyword will help us to get the parent class implementation together with the child class implementation. 
+		//super.glass();     //Super keyword will help us to get the parent class implementation together with the child class implementation. 
 	}
 	public static void main(String[] args) 
 	{
