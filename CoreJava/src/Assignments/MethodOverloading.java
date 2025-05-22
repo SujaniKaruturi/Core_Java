@@ -37,7 +37,7 @@ public class MethodOverloading
 	
 	public static void main(String[] args) 
 	{
-		Assignment_17 a=new Assignment_17();
+		MethodOverloading a=new MethodOverloading();
 		add("Sujani");
 		add(45,56);
 		a.add();
