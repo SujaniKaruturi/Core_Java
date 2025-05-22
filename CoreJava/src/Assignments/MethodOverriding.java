@@ -1,7 +1,7 @@
 package Assignments;
 //Ass29. Method Overriding
 class Parent_4
-why static methods cannot be overridden
+
 {
 	static void bottle()
 	{
@@ -33,7 +33,7 @@ public class MethodOverriding extends Parent_4
 		MethodOverriding l=new MethodOverriding();
 		l.glass();
 		bottle();   //output will be child class method output ,where parent class method is been over ridden
-
+		Parent_4.bottle();
 	}
 
 }
