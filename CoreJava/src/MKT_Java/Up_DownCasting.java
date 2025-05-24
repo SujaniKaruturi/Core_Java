@@ -5,7 +5,7 @@ package MKT_Java;
 	// Upcasting Vs Downcasting
 	 
 	// Parent class
-	class Parent_567{
+	class Parent_5{
 	    String name;
 	 
 	    // A method which prints the
@@ -16,7 +16,7 @@ package MKT_Java;
 	    }
 	}
 	// Child class
-	class Child2 extends Parent_567 {
+	class Child2 extends Parent_5 {
 	    int id;
 	 
 	    // Overriding the parent method
@@ -36,7 +36,7 @@ package MKT_Java;
 	    public static void main(String[] args)
 	    {
 	        // Upcasting
-	    	Parent_567 p = new Child2();
+	    	Parent_5 p = new Child2();
 	        p.name = "GeeksforGeeks";
 	 
 	        //Printing the parentclass name
