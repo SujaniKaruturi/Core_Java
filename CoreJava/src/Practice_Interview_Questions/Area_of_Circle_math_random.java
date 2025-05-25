@@ -1,6 +1,6 @@
 package Practice_Interview_Questions;
 
-public class Ass_B45_23_Area_of_Circle_math_random {
+public class Area_of_Circle_math_random {
 
 	public void areaOfCircle()
 	{
@@ -16,7 +16,7 @@ public class Ass_B45_23_Area_of_Circle_math_random {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Ass_B45_23_Area_of_Circle_math_random g =new Ass_B45_23_Area_of_Circle_math_random();
+		Area_of_Circle_math_random g =new Area_of_Circle_math_random();
 		g.areaOfCircle();
 		System.out.println("Radius of circle for 10 times ");
 		double pi = Math.PI;
