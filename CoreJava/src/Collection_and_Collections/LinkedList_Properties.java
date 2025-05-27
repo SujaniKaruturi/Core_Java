@@ -25,7 +25,7 @@ public class LinkedList_Properties {
 		System.out.println("queue follow indexing, Duplicates allowed, Multiple null values allowed" + a1);
 	
 		
-		LinkedList a2=new LinkedList();
+		LinkedList<Integer> a2=new LinkedList<Integer>();
 		a2.add(99);
 		a2.add(65);
 		a2.add(2);
@@ -35,11 +35,25 @@ public class LinkedList_Properties {
 		a2.add(22);
 		a2.add(54);
 		a2.add(77);
-		System.out.println(a2);
+		System.out.println("Initial LL " + a2);
+		a2.addFirst(100);
+		a2.addLast(300);
+		System.out.println("After add first ,last Operations" + a2);
+		System.out.println("get first vlaue from linked list " +a2.getFirst());
+		System.out.println("get last value from linked list " +a2.getLast());
+		//a2.clear();
+		System.out.println("After clearing linked list" + a2);
+		System.out.println("remove last value from linked list " +a2.removeLast());
+		System.out.println("After remove last value from linked list " + a2);
+		//a2.clear();
+		System.out.println("poll last value from linked list " +a2.pollLast());  
+		System.out.println("After polllast Operations" + a2);
+		//Both of these two methods return the last element of the List , but pollLast returns null if the List is empty 
+		//while removeLast throws a NoSuchElementException if the list empty
 		Collections.sort(a2);		
 		//sorting can only done for homogeneous data.
 		//Collections is a class having sort method.
-		System.out.println(a2);
+		System.out.println("After Sorting " + a2);
 		
 		Iterator<Integer> it_lList = a2.iterator();
 		System.out.println("********Iterator hasNext**********");

@@ -1,6 +1,6 @@
 package MKT_Java;
 
-public class TypeCasting {
+public class PrimitiveTypeCasting {
 
 	public static void main(String[] args) 
 	{

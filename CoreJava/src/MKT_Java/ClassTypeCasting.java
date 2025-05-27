@@ -30,7 +30,7 @@ package MKT_Java;
 	 
 	// Demo class to see the difference
 	// between upcasting and downcasting
-	public class Up_DownCasting {
+	public class ClassTypeCasting {
 		 
 	    // Driver code
 	    public static void main(String[] args)
