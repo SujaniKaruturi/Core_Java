@@ -31,18 +31,62 @@ public class List_Iteration_Interface {
 		{
 			System.out.println(i_l1.next());
 		}
+		i_l1.remove(); 	 //removing last element using iterator
+		System.out.println("List after removing element using iterator at last index" + l1);
 		
 		ListIterator i2_l1 = l1.listIterator();
+		i2_l1.next();
+		i2_l1.set(5432);  //adding element using listiterator at first index
+		System.out.println("List after adding element using listiterator at first index" + l1);
 		System.out.println("ListIterator - hasNext");
 		while(i2_l1.hasNext())
 		{
 			System.out.println(i2_l1.next());
+			
+			
 		}
+		i2_l1.set(3456);  //adding element using listiterator at last index
+		System.out.println("List after adding element using listiterator at last index" + l1);
+		i2_l1.remove();  //removing last element using listiterator
+		System.out.println("List after removing last element using listiterator" + l1);
 		System.out.println("ListIterator - hasPrevious"); 	//backward-Reverse
 		while(i2_l1.hasPrevious())
 		{
 			System.out.println(i2_l1.previous());
 		}
+		
+		// Create an ArrayList
+        ArrayList<String> colors = new ArrayList<String>();
+
+        // Adding elements to the arraylist
+        colors.add("Red");
+        colors.add("White");
+        colors.add("Blue");
+        colors.add("Pink");
+        colors.add("Black");
+        colors.add("Green");
+
+        ListIterator<String> listIterator
+            = colors.listIterator();
+
+        // Print the original ArrayList created
+        System.out.println("List Before remove() :- "
+                           + colors);
+
+        // we want to remove Blue element from the arraylist
+        for (String it : colors) {
+            listIterator.next();
+            // if we reached to required element break the
+            // loop
+            if (it == "Blue")
+                break;
+        }
+
+        // remove color blue from arraylist
+        listIterator.remove();
+
+        System.out.println("List After remove():- "
+                           + colors);
 	}
 
 }

@@ -29,14 +29,14 @@ public class ScannerTryCatch {
 			System.out.println("Value of f is " + f);
 			System.out.println("Length of f is " + f.length());
 			*/
-			/*
+			
 			//Example 5:
 			System.out.println("Enter byte value as 32000 and check exception");
 			Scanner s=new Scanner(System.in);
 			System.out.println("Enter salary ");  //-128 to 127 is byte range,so java.util.InputMismatchException is seen
 			byte salary=s.nextByte();
 			System.out.println("Salary is " +salary);
-			*/
+			
 		}
 		catch(InputMismatchException c)
 		{
