@@ -23,7 +23,6 @@ public class Global_Local_Variables {
 		booLeanDataType();
 		// declaration and initialization by method 2
 		decInitMethod2();
-		
 		Global_Local_Variables l=new Global_Local_Variables();
 		System.out.println("value of x is " +l.x);	//need to use reference variable to output global variable
 		System.out.println("value of b is " +l.b);
@@ -36,6 +35,13 @@ public class Global_Local_Variables {
 		System.out.println("value of static global variable is " +k);
 		System.out.println("value of final variable is " +l.op);
 		
+		
+	}
+	 void numericDataType2()  //non-static method
+	{
+		Global_Local_Variables l=new Global_Local_Variables();
+		System.out.println("value of non-static global variable is " +l.h);  //non-static variable
+		System.out.println("value of static global variable is " +k);	//static variable
 	}
 	static void numericDataType()
 	{

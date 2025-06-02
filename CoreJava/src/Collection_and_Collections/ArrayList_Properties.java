@@ -65,12 +65,17 @@ public class ArrayList_Properties {
 		a.add(null);
 		a2.add(77);
 		System.out.println("Array List a2 "+ a2);
-		System.out.println("Array List values at 5 is "+a2.get(5));
+		System.out.println("Array List values at 5 is "+a2.get(5));   //to read/fetch elements from arraylist
 		System.out.println("Array List contains value 54  "+a2.contains(54));
 		Collections.sort(a2);		//sorting can only done for homogeneous data.
 		//Collections is a class having sort method.
 		System.out.println("After Sort "+ a2);
 		
+		
+		for(int i=0; i<a2.size();i++)
+		{
+			System.out.println("value at index " + i  + " is "+ a2.get(i)  );
+		}
 		Iterator i1= a2.iterator();
 		System.out.println("Forword Iteration using iterator");
 		while(i1.hasNext())

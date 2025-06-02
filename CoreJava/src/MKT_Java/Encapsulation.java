@@ -15,6 +15,7 @@ public class Encapsulation {
 		this.OTP = OTP;
 	}
 
+	
 	public String getName() 
 	{
 		return name;
