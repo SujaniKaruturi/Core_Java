@@ -60,6 +60,19 @@ public class StringMethods {
 		System.out.println("Equals to " + s.equals(s2) );
 		System.out.println("Equals ignore case" + s.equalsIgnoreCase(s3) );
 		
+		String a="Manish";
+		System.out.println(a.matches("M(.*)"));
+		//here we are checking if String a starts with M o not
+
+		System.out.println(a.equals("Manish"));
+		//here we are checking if String a is same as Manish
+
+		System.out.println(a.equalsIgnoreCase("manish"));
+		//here we are checking if Manish is same as manish[if we ignore its upper and lower case]
+
+		System.out.println(a.contains("ish"));
+		//here we are checking if String a have "ish" or not in it
+		
 	}
 
 }
