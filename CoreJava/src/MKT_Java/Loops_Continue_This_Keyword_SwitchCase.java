@@ -81,6 +81,11 @@ public class Loops_Continue_This_Keyword_SwitchCase {
 		{
 			System.out.println("Decrement infinite loop");
 		}
+		for(;;)
+		{
+			System.out.println("Hello World");
+		}
+
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

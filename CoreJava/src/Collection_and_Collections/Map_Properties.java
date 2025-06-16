@@ -1,4 +1,5 @@
 package Collection_and_Collections;
+import java.util.Collections;
 //88. Map Iterator -Iteration
 //87. Map Iterator -For Each Loop
 import java.util.HashMap;
@@ -30,6 +31,7 @@ public class Map_Properties {
 		m4.put("Rushika",3);
 		m4.put("Krishna",4);
 		System.out.println("Keys value pairs m4 " + m4);
+		
 		
 		Map<String,Integer> m5=new HashMap <String,Integer>();
 		m5.put("RaviTeja",1);  
