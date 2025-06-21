@@ -1,4 +1,4 @@
-package Practice_Interview_Questions;
+package Programming_Questions;
 //In given String find how many are alphabets, special character,numeric,Spaces
 public class String_Count_Space_alpha_speChar_num {
 

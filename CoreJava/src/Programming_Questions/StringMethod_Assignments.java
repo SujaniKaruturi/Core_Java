@@ -1,4 +1,4 @@
-package Practice_Interview_Questions;
+package Programming_Questions;
 
 public class StringMethod_Assignments {
 
@@ -41,21 +41,9 @@ public class StringMethod_Assignments {
 		// Remove all the Capital Letters	
 		String q2="1Ma456N&Is*H T@i62Wa23#Ri0";
 		System.out.println("String before replacement is " + q2);
-		String q3= q2.replaceAll("[A-Z]","");	//capital alphabets will not be removed
+		String q3= q2.replaceAll("[A-Z]","");	//small alphabets will not be removed
 		//As string is immutable ,replaced string need to be stored in new string variable.
 		System.out.println("String after removeing all Capital Letter from string is " + q3);
-	}
-	public void assignment_73()
-	{
-		//Check if given string ends with letter 'i'
-		String name="Sujani";
-		boolean result = name.matches("(.*)I"); //result is false as string is case sensitive
-		boolean result2 = name.matches("(.*)i");
-		if(result2)
-		{
-			System.out.println("String ends with i");
-		}
-		System.out.println("String doesnot ends with i");
 	}
 	static void Assignment74()
 	{
