@@ -1,6 +1,6 @@
-package Practice_Interview_Questions;
+package Programming_Questions;
 //Find out how many are alphabets,numerics,special characters,spaces in  a string?
-public class StringProblem {
+public class howmany_alphabets_numbers_in_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

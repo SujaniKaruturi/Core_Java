@@ -1,4 +1,4 @@
-package Practice_Interview_Questions;
+package Programming_Questions;
 
 import java.util.Arrays;
 

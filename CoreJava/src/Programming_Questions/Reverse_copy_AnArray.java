@@ -1,8 +1,8 @@
-package Practice_Interview_Questions;
+package Programming_Questions;
 
 import java.util.Arrays;
 
-public class ReverseAnArray {
+public class Reverse_copy_AnArray {
 
 	static public void reverseArray()
 	{
@@ -20,24 +20,11 @@ public class ReverseAnArray {
 		System.out.println("Array is " + Arrays.toString(intArray));
 		System.out.println("Copied Array is " + Arrays.toString(copyArray));
 		System.out.println("Reversed Array is " + Arrays.toString(reverseArray));
-		
 		/*
 		 * for(int i=0,j=length-1; i<length; i++,j--) //Another way of reverse the array
 		 * { reverseArray[j]=intArray[i]; }
 		 */
-		
-		for(int i=0,j=4; i<length; i++,j--) 	//Another way of reverse the array
-		{
-			reverseArray[j]=intArray[i];	
-		}
-		
 		System.out.println("Second way using 2 variables ,Reversed Array is " + Arrays.toString(reverseArray));
-	}
-	static public void copyArraywhesizeofarraynotsam()
-	{
-		int intArray2[] = {2,4,6,8,10};
-		int copyArray[] = new int[5];
-		
 	}
 	
 	public static void main(String[] args) {
