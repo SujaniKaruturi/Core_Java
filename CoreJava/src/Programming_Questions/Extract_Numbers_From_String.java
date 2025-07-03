@@ -17,8 +17,10 @@ public class Extract_Numbers_From_String {
 	{
 		String input = "Pran123789test";
         // Replace all non-digit characters with an empty string
-        String digitsOnly = input.replaceAll("\\d", "");
+        String digitsOnly = input.replaceAll("[0-9]", "");
+        String digits = input.replaceAll("[^0-9]", "");  // Keep only digits
         System.out.println("Extracted digits: " + digitsOnly);
+        System.out.println("Extracted digits: " + digits);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

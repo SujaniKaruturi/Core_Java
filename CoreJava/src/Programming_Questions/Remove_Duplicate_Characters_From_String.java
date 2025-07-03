@@ -10,8 +10,8 @@ public class Remove_Duplicate_Characters_From_String {
 	        StringBuilder output = new StringBuilder(); 
 	        
 	        for (char ch : char_array) {
-	        	System.out.println(String.valueOf(ch)); 
-	        	need more clarity
+	        	 
+	        	//need more clarity
 	            if (output.indexOf(String.valueOf(ch)) == -1) { 
 	                output.append(ch); 
 	            } 

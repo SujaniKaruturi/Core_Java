@@ -93,7 +93,7 @@ public class StringMethod_Assignments {
 		h.assignment_70();
 		h.assignment_71();
 		h.assignment_72();
-		h.assignment_73();
+		//h.assignment_73();
 		Assignment74();
 		Assignment75();
 		Assignment76();

@@ -5,6 +5,7 @@ public class Convert_String {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String input = "AAABBCDD"; 
+		//String s2="";
         StringBuilder output = new StringBuilder(); 
         int count = 1; 
         char[] arr = input.toCharArray(); 
@@ -16,6 +17,7 @@ public class Convert_String {
             } 
             else 
             { 
+            	//s2.concat(arr[i]).append(count); doesn't work as array and string cannot concat
                 output.append(arr[i]).append(count); 
                 count = 1; 
             } 

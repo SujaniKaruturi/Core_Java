@@ -25,16 +25,16 @@ public class AssignmentArray {
 		
 		int size=name.length;
 		System.out.println(size);
-		/*
+		
 		for(int i=0; i<size ;i++)
 		{
 			//System.out.println(name[i]+" "+age[i]+" "+id[i]);   //assignment1
 			
 			System.out.println(name[i]+" ");
-			System.out.println(age[i]+" ");
-			System.out.println(id[i]+" ");	
+			//System.out.println(age[i]+" ");
+			//System.out.println(id[i]+" ");	
 		}
-		*/
+		
 		for(int i=0; i<=3 ;i++)
 		{
 			System.out.println(name[i]+" ");
