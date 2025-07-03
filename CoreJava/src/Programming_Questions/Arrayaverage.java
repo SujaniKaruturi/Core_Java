@@ -21,7 +21,7 @@ public class Arrayaverage {
 			//System.out.println("sum " + sum);
 		}
 		System.out.println("sum " + sum);
-	int average=sum/4;
+	int average=sum/l;
 	System.out.println("average " + average);
 	}
 

@@ -1,6 +1,7 @@
 package Collection_and_Collections;
 
 import java.util.Collections;
+import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorPractice {
@@ -36,6 +37,13 @@ public class VectorPractice {
 		//sorting can only done for homogeneous data.
 		//Collections is a class having sort method.
 		System.out.println(a2);
+		
+		Enumeration e= a2.elements();
+		while(e.hasMoreElements()==true)
+		{
+			System.out.println(e.nextElement());
+		}
+
 	}
 
 }
