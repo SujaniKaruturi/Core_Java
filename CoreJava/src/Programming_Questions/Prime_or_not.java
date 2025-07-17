@@ -6,8 +6,7 @@ public class Prime_or_not {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner s1=new Scanner(System.in);
-		int num=s1.nextInt();
+		int num=8;
 		
 		
 			boolean isPrime=true;
