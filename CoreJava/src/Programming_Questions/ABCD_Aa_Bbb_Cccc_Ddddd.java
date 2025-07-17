@@ -12,20 +12,15 @@ public class ABCD_Aa_Bbb_Cccc_Ddddd {
 	        {
 	            // First character uppercase
 	            result = result + Character.toUpperCase(chars[i]);
-
 	            // Add lowercase repeated (i) times
 	            for (int j = 0; j < i; j++)
 	            {
 	                result= result +  Character.toLowerCase(chars[i]);
 	            }
-
-				
 				  // Add underscore if not the last character
 	            if (i < chars.length - 1) {
-				  result = result + "_"; }
-				 
+				  result = result + "_"; } 
 	        }
-
 	        System.out.println(result);
 	}
 

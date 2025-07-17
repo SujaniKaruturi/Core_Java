@@ -22,8 +22,6 @@ public class Count_of_EachCharacter_in_String {
 	            }
 	        }
 	        
-	        
-
 	        // Step 2: Sort map entries by value in descending order
 	        List<Map.Entry<Character, Integer>> sortedList = new ArrayList<>(charCount.entrySet());
 	        sortedList.sort((e1, e2) -> e2.getValue().compareTo(e1.getValue()));
