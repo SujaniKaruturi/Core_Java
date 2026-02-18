@@ -1,5 +1,6 @@
 package Programming_Questions;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +8,64 @@ import java.util.Map;
 import java.util.Set;
 
 public class Arrays_Practice {
-
+//multiply table without using multiply operator
+	public static void Multiply_table(int i,int j)
+	{
+		int k=1;
+		int sum=0;
+		//5*10=50, so now i has to sum j times to get result
+		while(k<=j)
+		{
+			k++;
+			sum = sum +i; 
+		}
+		 System.out.println("Multiply value is "+sum); 
+	}
+	//Max diff between any adjacent index in array
+	public static void max_adjacent_index()
+	{
+		int a[]= {2,4,5,8,4,9};
+		int mindiff=0;
+		int diff=0;
+		
+		for(int i=0;i<a.length-1;i++)
+		{
+			diff = a[i+1] - a[i];
+			if(diff<mindiff)
+			{
+				diff= -diff;  //convert to positive if negative
+			}
+			if(diff>mindiff)
+			{
+				mindiff=diff;
+			}
+		}
+		System.out.println("adjacent diff value is "+mindiff); 
+	}
+	public static void compareSameIndexes()
+	{
+		//compare same indexes of 2 diff array and create another array for matching values
+		int d[]= {2,4,7,3,9};
+		int h[]= {6,4,9,3,2};
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		
+		for(int i=0;i<d.length;i++)
+		{
+			if(d[i] == h[i])
+			{
+				al.add(d[i]);
+			}
+		}
+		//converting arraylist to array
+		Object[] array=al.toArray();
+		//System.out.println("Array with same values at same index is "+array); 
+		System.out.println("Array with same values at same index is "+ Arrays.toString(array)); 
+		for(Object ob:array)
+		{
+			System.out.println("Array with same values at same index is "+ob); 
+		}
+	}
+	
 	public static void Arraymin_max()
 	{
 		int a[]= {1,7,89,34,2}; 
@@ -31,7 +89,7 @@ public class Arrays_Practice {
         System.out.println("Maximum Value is "+max); 
         System.out.println("Minimum value is "+min); 
 	}
-	public static void arrayAverage()
+	public static void array_Sum_Average()
 	{
 		int a[]= {5,10,15,20,25}; 
 		int l=a.length; 
@@ -137,13 +195,17 @@ public class Arrays_Practice {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Arraymin_max();
-		arrayAverage();
-		duplicateElementsInArray();
-		mergeArrays();
-		copy_reverse_Array();
-		repeated_Numbers_In_Array();
-		missing_Number_InArray();
+		compareSameIndexes();
+		max_adjacent_index();
+		Multiply_table(5,5);
+		 Arraymin_max(); 
+		 array_Sum_Average(); 
+		 duplicateElementsInArray(); 
+		 mergeArrays();
+		 copy_reverse_Array(); 
+		 repeated_Numbers_In_Array(); 
+		 missing_Number_InArray();
+		 
 	}
 
 }

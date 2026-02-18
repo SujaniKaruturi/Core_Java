@@ -17,7 +17,7 @@ public class DuplicateElements {
 				if(array[i]==array[j])
 					{
 					duplicate[i]=array[j]; //how to place all duplicates element in one array
-					System.out.println("Duplicate values are: "+duplicate[i]);
+					//System.out.println("Duplicate values are: "+duplicate[i]);
 					}
 				}
 			
@@ -25,19 +25,21 @@ public class DuplicateElements {
 		System.out.println("Duplicate values are: "+Arrays.toString(duplicate));
 	
 		Set<Integer> duplicates=new HashSet<>();
-		Set<Integer>  nonduplicate=new HashSet<>() ;
+		Set<Integer>  unique=new HashSet<>() ;
 		
 		for(int eachelement:array)
 		{
-			if(!nonduplicate.add(eachelement))
+			if(!unique.add(eachelement))
 			{
 				//System.out.println("duplicate elemenys are: "+ eachelement);
 				duplicates.add(eachelement);
 			}
 			
 		}
-		System.out.println(duplicates);
-		System.out.println(nonduplicate);
+		System.out.println("All elemnets in array " + unique);
+		unique.removeAll(duplicates);
+		System.out.println("Only duplicates Elements "+ duplicates);
+		System.out.println("Only unique Elements " + unique);
 
 	}
 

@@ -13,6 +13,7 @@ public class FibnocciSeries {
 		{ 
 		sum =a+b; 
 		System.out.print(a +" "); 
+		//.out.print(a +" "); 
 		a=b; 
 		b=sum; 
 		i++; 
